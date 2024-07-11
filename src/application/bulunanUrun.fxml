@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anc6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffa4a4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.bulunanUrunController">
+   <children>
+      <Label layoutX="203.0" layoutY="20.0" text="BULUNAN ÜRÜN" textFill="RED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_Urara" layoutX="453.0" layoutY="19.0" mnemonicParsing="false" onAction="#btn_Urara_Click" prefHeight="30.0" prefWidth="97.0" text="ÜRÜN ARA">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Geri" layoutX="41.0" layoutY="20.0" mnemonicParsing="false" onAction="#btn_Geri_Click" prefHeight="30.0" prefWidth="97.0" text="GERİ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="77.0" layoutY="97.0" text="ÜRÜN ID:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="232.0" text="ADET:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="166.0" text="BEDEN:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="201.0" text="RENK:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="132.0" text="ÜRÜN TÜRÜ:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="263.0" text="SATILDI:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="291.0" text="FİYAT:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelID" layoutX="226.0" layoutY="102.0" prefHeight="27.0" prefWidth="125.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labeltur" layoutX="226.0" layoutY="137.0" prefHeight="27.0" prefWidth="125.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelbdn" layoutX="226.0" layoutY="174.0" prefHeight="27.0" prefWidth="125.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelrenk" layoutX="226.0" layoutY="206.0" prefHeight="27.0" prefWidth="125.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labeladet" layoutX="226.0" layoutY="237.0" prefHeight="27.0" prefWidth="117.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelsatildi" layoutX="226.0" layoutY="268.0" prefHeight="27.0" prefWidth="117.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Labelfiyat" layoutX="226.0" layoutY="296.0" prefHeight="27.0" prefWidth="117.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="171.0" fitWidth="168.0" layoutX="395.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Ekran%20görüntüsü%202024-05-20%20194224.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
